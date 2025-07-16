@@ -5,6 +5,7 @@ Z0 !s99 nomlopt
 R0
 R0
 R0
+R0
 !s11f vlog 2021.1 2021.01, Jan 19 2021
 13
 !s112 1.1
@@ -14,17 +15,17 @@ R0
 cModel Technology
 Z1 dD:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle
 T_opt
-!s110 1752659403
-VNR;^kIS;Y<0hQUWT62Enf2
+!s110 1752660648
+VeK[;S;TF[Je;RUZQn8]ZE3
 04 2 4 work tb fast 0
-=1-ccf9e498c556-687775ca-3cb-38a0
+=1-ccf9e498c556-68777aa7-31a-3490
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 OL;O;2021.1;73
 vADD4
-Z3 !s110 1752659400
+Z3 !s110 1752660642
 !i10b 1
 !s100 C@Ba[C5DMVBWZBzVA037M2
 I2E4PVT577n_6<[Lmm6^;D1
@@ -32,14 +33,14 @@ R1
 Z4 w1733770746
 Z5 8PC.v
 Z6 FPC.v
-!i122 33
+!i122 35
 L0 16 6
 Z7 VDg1SIo80bB@j0V0VzS_@n1
 Z8 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z9 !s108 1752659400.000000
+Z9 !s108 1752660642.000000
 Z10 !s107 tb.v|TopModule.v|SignExtend.v|RegisterFile.v|PC.v|InstructionMemory.v|Datamemory.v|ControlUnit.v|BranchModule.v|ALUcontrol.v|ALU.v|
 Z11 !s90 -reportprogress|300|-f|src_files.list|
 !i113 0
@@ -55,7 +56,7 @@ R1
 w1752548193
 8ALU.v
 FALU.v
-!i122 33
+!i122 35
 L0 1 21
 R7
 R8
@@ -78,7 +79,7 @@ R1
 w1752552060
 8ALUcontrol.v
 FALUcontrol.v
-!i122 33
+!i122 35
 Z13 L0 1 19
 R7
 R8
@@ -101,7 +102,7 @@ R1
 R4
 8BranchModule.v
 FBranchModule.v
-!i122 33
+!i122 35
 L0 1 18
 R7
 R8
@@ -124,7 +125,7 @@ R1
 w1752547752
 8ControlUnit.v
 FControlUnit.v
-!i122 33
+!i122 35
 L0 2 17
 R7
 R8
@@ -147,7 +148,7 @@ R1
 w1752552891
 8Datamemory.v
 FDatamemory.v
-!i122 33
+!i122 35
 L0 1 22
 R7
 R8
@@ -170,7 +171,7 @@ R1
 w1752552091
 8SignExtend.v
 FSignExtend.v
-!i122 33
+!i122 35
 L0 1 16
 R7
 R8
@@ -193,7 +194,7 @@ R1
 w1752550758
 8InstructionMemory.v
 FInstructionMemory.v
-!i122 33
+!i122 35
 L0 1 11
 R7
 R8
@@ -216,7 +217,7 @@ R1
 R4
 R5
 R6
-!i122 33
+!i122 35
 L0 1 13
 R7
 R8
@@ -239,7 +240,7 @@ R1
 R4
 8RegisterFile.v
 FRegisterFile.v
-!i122 33
+!i122 35
 R13
 R7
 R8
@@ -256,14 +257,14 @@ n@register@file
 vtb
 R3
 !i10b 1
-!s100 Sle>zVOhFfGC[8jFja<ml0
-IJElT6n0[1gPMz6d6U>XBc2
+!s100 06ICagcd94mco1i[CRd2:2
+I9knK]e;5i7?4C^QX>`jj=1
 R1
-w1752553018
+w1752660635
 8tb.v
 Ftb.v
-!i122 33
-L0 14 33
+!i122 35
+L0 14 49
 R7
 R8
 r1
@@ -284,7 +285,7 @@ R1
 w1752659394
 8TopModule.v
 FTopModule.v
-!i122 33
+!i122 35
 L0 1 54
 R7
 R8

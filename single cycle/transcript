@@ -98,3 +98,86 @@ do run.do
 # ** Note: $stop    : tb.v(43)
 #    Time: 70 ns  Iteration: 1  Instance: /tb
 # Break in Module tb at tb.v line 43
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 13:09:33 on Jul 16,2025
+# vlog -reportprogress 300 -f src_files.list 
+# -- Compiling module ALU
+# -- Compiling module ALU_Control
+# -- Compiling module BranchModule
+# -- Compiling module ControlUnit
+# -- Compiling module DataMemory
+# -- Compiling module InstructionMemory
+# -- Compiling module PC
+# -- Compiling module ADD4
+# -- Compiling module RegisterFile
+# -- Compiling module ImmGen
+# -- Compiling module TopModule
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:09:33 on Jul 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:09:36 on Jul 16,2025, Elapsed time: 0:19:34
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 13:09:36 on Jul 16,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.TopModule(fast)
+# Loading work.PC(fast)
+# Loading work.ADD4(fast)
+# Loading work.BranchModule(fast)
+# Loading work.InstructionMemory(fast)
+# Loading work.RegisterFile(fast)
+# Loading work.ImmGen(fast)
+# Loading work.ControlUnit(fast)
+# Loading work.ALU_Control(fast)
+# Loading work.ALU(fast)
+# Loading work.DataMemory(fast)
+# ** Note: $stop    : tb.v(43)
+#    Time: 70 ns  Iteration: 1  Instance: /tb
+# Break in Module tb at tb.v line 43
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 13:10:42 on Jul 16,2025
+# vlog -reportprogress 300 -f src_files.list 
+# -- Compiling module ALU
+# -- Compiling module ALU_Control
+# -- Compiling module BranchModule
+# -- Compiling module ControlUnit
+# -- Compiling module DataMemory
+# -- Compiling module InstructionMemory
+# -- Compiling module PC
+# -- Compiling module ADD4
+# -- Compiling module RegisterFile
+# -- Compiling module ImmGen
+# -- Compiling module TopModule
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:10:42 on Jul 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:10:47 on Jul 16,2025, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 13:10:47 on Jul 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.TopModule(fast)
+# Loading work.PC(fast)
+# Loading work.ADD4(fast)
+# Loading work.BranchModule(fast)
+# Loading work.InstructionMemory(fast)
+# Loading work.RegisterFile(fast)
+# Loading work.ImmGen(fast)
+# Loading work.ControlUnit(fast)
+# Loading work.ALU_Control(fast)
+# Loading work.ALU(fast)
+# Loading work.DataMemory(fast)
