@@ -1,0 +1,12 @@
+ALU.v
+ALUcontrol.v
+BranchModule.v
+ControlUnit.v
+Datamemory.v
+InstructionMemory.v 
+PC.v
+RegisterFile.v 
+SignExtend.v 
+TopModule.v
+tb.v 
+ 

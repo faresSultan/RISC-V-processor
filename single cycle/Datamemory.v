@@ -4,7 +4,7 @@ module DataMemory(clk,MemRead,MemWrite,Address,Write_data,Read_data);
     input [31:0] Address,Write_data;
     output reg [31:0] Read_data;
 
-    reg [7:0] DataMem [0:10239];
+    reg [7:0] DataMem [0:5120];
     
     always @(posedge clk) begin
         if (MemWrite) begin

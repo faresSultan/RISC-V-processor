@@ -34,10 +34,10 @@ module TopModule(rst_n,clk,Instruction);
 
     ImmGen immGen(.Opcode(Instruction[6:0]), .instruction(Instruction), .ImmExt(ImmediateValue));
     
-    ControlUnit CU(.Opcode(Instruction[31:26]),.ALUSrc(ALUSrc),.MemtoReg(MemtoReg),.RegWrite(RegWrite),
+    ControlUnit CU(.Opcode(Instruction[6:0]),.ALUSrc(ALUSrc),.MemtoReg(MemtoReg),.RegWrite(RegWrite),
     .MemRead(MemRead),.MemWrite(MemWrite),.Branch(Branch),.ALUOp(ALUOp));
 
-    ALU_control ALU_CTR(.ALUOp(ALUOp),.fun3(Instruction[14:12]),.fun7(Instruction[30]),.ALUfunction(ALUfunction));
+    ALU_Control ALU_CTR(.ALUOp(ALUOp),.fun3(Instruction[14:12]),.fun7(Instruction[30]),.ALUfunction(ALUfunction));
 
     ALU alu (.ALUoprand1(ALUoprand1),.ALUoprand2(ALUoprand2),.ALUOP(ALUfunction),.Zero(Zero),.ALUresult(ALUresult));
 

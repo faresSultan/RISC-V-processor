@@ -1,0 +1,192 @@
+
+*** Running vivado
+    with args -log TopModule.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopModule.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source TopModule.tcl -notrace
+Command: synth_design -top TopModule -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 30464 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 381.578 ; gain = 76.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TopModule' [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/TopModule.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PC' [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/PC.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (1#1) [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/PC.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ADD4' [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/PC.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'ADD4' (2#1) [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/PC.v:16]
+INFO: [Synth 8-6157] synthesizing module 'BranchModule' [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/BranchModule.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'BranchModule' (3#1) [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/BranchModule.v:1]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:1]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+WARNING: [Synth 8-3848] Net InstructionMem in module/entity InstructionMemory does not have driver. [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:6]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (4#1) [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/RegisterFile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (5#1) [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/RegisterFile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/SignExtend.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/SignExtend.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (6#1) [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/SignExtend.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ControlUnit.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ControlUnit.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (7#1) [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ControlUnit.v:2]
+WARNING: [Synth 8-689] width (6) of port connection 'Opcode' does not match port width (7) of module 'ControlUnit' [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/TopModule.v:37]
+INFO: [Synth 8-6157] synthesizing module 'ALU_Control' [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ALUcontrol.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ALUcontrol.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_Control' (8#1) [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ALUcontrol.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ALU.v:1]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ALU.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (9#1) [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ALU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/Datamemory.v:1]
+WARNING: [Synth 8-4767] Trying to implement RAM 'DataMem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "DataMem_reg" dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (10#1) [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/Datamemory.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'TopModule' (11#1) [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/TopModule.v:1]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[19]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[18]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[17]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[16]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[15]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[14]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[13]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[12]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[6]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[5]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[4]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[3]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[2]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[1]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port instruction[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1594.852 ; gain = 1289.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:11 ; elapsed = 00:01:15 . Memory (MB): peak = 1594.852 ; gain = 1289.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:11 ; elapsed = 00:01:15 . Memory (MB): peak = 1594.852 ; gain = 1289.910
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Synth 8-5546] ROM "ImmExt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUOp" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUfunction" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ALU.v:9]

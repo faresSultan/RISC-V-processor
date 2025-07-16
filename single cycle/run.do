@@ -1,3 +1,5 @@
+vlib work
+vlog -f src_files.list 
 vsim -voptargs=+acc work.tb
 add wave -position insertpoint sim:/tb/DUT/*
 add wave -position insertpoint  \

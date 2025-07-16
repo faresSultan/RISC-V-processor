@@ -1,0 +1,80 @@
+{D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/TopModule.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/TopModule.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module TopModule
+
+Top level modules:
+	TopModule
+
+} {} {}} {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/SignExtend.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/SignExtend.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ImmGen
+
+Top level modules:
+	ImmGen
+
+} {} {}} {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/RegisterFile.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/RegisterFile.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ControlUnit.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ControlUnit.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/tb.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ALU.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ALU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/Datamemory.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/Datamemory.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/PC.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/PC.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module PC
+-- Compiling module ADD4
+
+Top level modules:
+	PC
+	ADD4
+
+} {} {}} {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/InstructionMemory.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ALUcontrol.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/ALUcontrol.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU_Control
+
+Top level modules:
+	ALU_Control
+
+} {} {}} {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/BranchModule.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/RISC-V/src/RISC-V-processor/single cycle/BranchModule.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module BranchModule
+
+Top level modules:
+	BranchModule
+
+} {} {}}

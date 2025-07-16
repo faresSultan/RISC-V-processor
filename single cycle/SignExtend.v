@@ -2,7 +2,7 @@ module ImmGen(Opcode, instruction, ImmExt);
 
 input [6:0] Opcode;
 input [31:0] instruction;
-output [31:0] ImmExt;
+output reg [31:0] ImmExt;
 
 always @(*)
 begin

@@ -7,14 +7,12 @@ output reg [3:0] ALUfunction;
 
 always @(*) begin
     case ({ALUOp, fun7, fun3})
-        6'b00_0_000: ALUfunction <= 4'be00;
-        6'b00_0_001: ALUfunction <= 4'be01;
-        6'b00_0_010: ALUfunction <= 4'be10;
-        6'b00_0_011: ALUfunction <= 4'be11;
-        6'b00_0_100: ALUfunction <= 4'be00;
-        6'b00_0_101: ALUfunction <= 4'be01;
-        6'b00_0_110: ALUfunction <= 4'be10;
-        6'b00_0_111: ALUfunction <= 4'be11;
+        6'b000000: ALUfunction <= 4'b0010;
+        6'b010000: ALUfunction <= 4'b0110;
+        6'b100000: ALUfunction <= 4'b0010;
+        6'b101000: ALUfunction <= 4'b0110;
+        6'b100111: ALUfunction <= 4'b0000;
+        6'b100110: ALUfunction <= 4'b0001;
     endcase
 end
 
